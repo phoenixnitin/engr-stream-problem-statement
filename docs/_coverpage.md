@@ -6,4 +6,4 @@
 
 - You will have to create your own repositories in [GitHub](https://github.com) and keep it private so that other's will not be able to see the code.
 
-![color](#ECEEEF)
+![color](#1F222F)
