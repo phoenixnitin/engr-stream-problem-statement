@@ -96,13 +96,13 @@ Our system should meet the following requirements:
 
 * Backend
     - Language: C#
-    - Framework: Spring, spring-boot, spring-cloud 
+    - Framework: dotnet core (version 2 or 3), Aspnet.core
 * Frontend
     - Language: Typescript or JavaScript
-    - Framework: dotnet core(Aspnet core)
+    - Framework: (P)React, Angular, Vue
 * Database
-    - MySQL, PostgreSQL, MongoDB
-    - DB Connectivity : Entiry Core or Daper
+    - MS SQL, PostgreSQL, MongoDB
+    - DB Connectivity : Entiry Core or Daper(Do not use ADO.net)    
 
 ## What are you suppose to submit ?
 
