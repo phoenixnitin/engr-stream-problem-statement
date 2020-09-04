@@ -38,9 +38,9 @@ Our system should meet the following requirements:
     |    Group Context      |            Example            |
     |:---------------------:|:-----------------------------:|
     | None                  | http://tiny/klsjd73           |
-    | User                  | http://pwilliam090312/klsjd73 |
-    | Tribe                 | http://osd/klsjd73            |
-    | platform\application  | http://dmn/klsjd73            |
+    | User                  | http://{paul}/klsjd73           |
+    | Tribe                 | http://{tribe-name}/klsjd73     |
+    | platform\application  | http://{ft-name}/klsjd73        |
 
 * The creator of the group will be the admin(role) user after which s\he will be able to add one or more admin user who would have authority to make changes. Only admin user(s) can remove a user from admin role. At any point of time there must be at least one admin user for the group. 
 
@@ -90,7 +90,7 @@ Our system should meet the following requirements:
     - Language: Typescript or JavaScript
     - Framework: (P)React, Angular, Vue
 * Database
-    - MySQL, PostgreSQL, MongoDB
+    - MySQL, PostgreSQL, MongoDB, Inmemory
 
 ### .Net
 
@@ -106,6 +106,8 @@ Our system should meet the following requirements:
 
 ## What are you suppose to submit ?
 
+- You will have to create your own organization and make your repositories private and use this for this hackathon. We recommend you to setup [CI\CD](#cicd) right from the start for each of your repository.
+- All [functional](#functional-requirements), [non-functional](#non-functional-requirements) and [extended](#extended-requirements) requirements needs to be implemented and working.
 - A design documentation satisfying both functional, non-functional and extended requirements with the data flow of various components involved in the form of markdown committed at [GitHub](https://github.com/)
 - A pictorial representation of DB schema: tables and relationships if any
 - A working code with widgets(web components) representing the cards
@@ -116,7 +118,7 @@ Our system should meet the following requirements:
 
 ## How are we planning to evaluate ?
 
-#### Documentation
+### Documentation
 
 We will be checking a lot of detailing about the solution for functional, non-functional and extended requirement along with options where ever applicable and why did you choose a specific solution from the various options. This will show how well you have understood the problem, how have you studied the various components and how did you evaluate a specific solution. Can you take a step ahead with [docsify](https://docsify.js.org/#/) and gh-pages?
 
@@ -125,32 +127,35 @@ We will be checking a lot of detailing about the solution for functional, non-fu
 - Does the document talk about various technical choices and decisions made through [ADR](https://adr.github.io/)?
 
 
-#### RESTful API
+### RESTful API
 
-We will be checking how well you have designed your RESTful api and how much of the global standardization have you adopted. For example: https://developer.sgmarkets.com/dashboard/swagger (skilleza to come back to SG on what tool they will be using to evaluate api design checks)
+We will be checking how well you have designed your RESTful api and how much of the global standardization have you adopted. Your APIs will be validated against swagger checker.
 
-#### Readable
+### Readable
 
 We write code not for machines to understand but for another contributor to understand and contribute. Format them well with a definite code style like [google style guide](https://google.github.io/styleguide/).
 
-#### Testable
+### Testable
 
 How well you have written tests with [test pyramid](https://martinfowler.com/bliki/TestPyramid.html). Are you following TDD or BDD approach? You commit will show what kind of approach you are following. The approach of TDD will generally include test along with production code. **TESTS ARE NOT FOR COVERAGE**.
 
-#### Commit and commit message
+### Commit and commit message
 
 A good developer always makes incremental commits with [meaningful commit message](https://www.conventionalcommits.org/en/v1.0.0/) for helping other collaborators to back trace though commit message. **DO NOT JUST MAKE ONE COMMIT**.
 
-#### Quality
+### Quality
 
 How do you automate the quality checks of your code and make the reports available in terms of violations and code coverage. Failing fast is one of the key aspect that helps in delivering a software in agile. How do you help in failing fast and help deliver quality code. 
 
-#### CI\CD
+### CI\CD
 
 How have you automated your code to be compiled, tested, verified for quality and deployed. You would have to choose from the following options:
 - Job runner: [TravisCI](https://travis-ci.org/) or [CircleCI](https://circleci.com/) for task runner
 - Coverage report: [Codecov](https://codecov.io/) for test running and reporting coverage. Would be great if you can showcase for each commit or pull-request how you can run your coverage checks.
-- Quality report: [Codacy](https://app.codacy.com/) for checking your code quality. Would be great if you can showcase for each commit or pull-request how you can run your coverage checks.
+- Quality report: [Codacy](https://app.codacy.com/) for checking your code quality. Would be great if you can showcase for each commit or pull-request how you can run your quality checks.
 - Kibana\Grafana dashboard for monitoring
 - Cloud server: [Heroku](https://www.heroku.com/) or google cloud or AWS or Azure for cloud. Use trial option. 
 
+## Contacts
+
+Connect with us through [![Gitter](https://badges.gitter.im/engineering-stream-hackathon/community.svg)](https://gitter.im/engineering-stream-hackathon/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
