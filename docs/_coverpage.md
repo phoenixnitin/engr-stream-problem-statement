@@ -1,4 +1,4 @@
-![logo](img/mini-brand.png) 
+![logo](img/engg_stream_hackathon.png) 
 
 > Dear participant,
  
