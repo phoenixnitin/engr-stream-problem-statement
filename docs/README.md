@@ -167,4 +167,4 @@ How have you automated your code to be compiled, tested, verified for quality an
 
 ## Contacts
 
-Connect with us through [Slack](https://join.slack.com/t/engineeringst-2cw9686/shared_invite/zt-h61q1wv6-ZU83i2YFmqf6yuH7OmGymA)
+Connect with us through [![Gitter](https://badges.gitter.im/engineering-stream-hackathon/community.svg)](https://gitter.im/engineering-stream-hackathon/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
