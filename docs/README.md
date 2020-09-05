@@ -37,10 +37,10 @@ Our system should meet the following requirements:
 
     |    Group Context      |            Example            |
     |:---------------------:|:-----------------------------:|
-    | None                  | http://tiny/klsjd73           |
-    | User                  | http://{paul}/klsjd73           |
-    | Tribe                 | http://{tribe-name}/klsjd73     |
-    | platform\application  | http://{ft-name}/klsjd73        |
+    | None                  | http://your-domain/tiny/klsjd73           |
+    | User                  | http://your-domain/{paul}/klsjd73           |
+    | Tribe                 | http://your-domain/{tribe-name}/klsjd73     |
+    | platform\application  | http://your-domain/{ft-name}/klsjd73        |
 
 * The creator of the group will be the admin(role) user after which s\he will be able to add one or more admin user who would have authority to make changes. Only admin user(s) can remove a user from admin role. At any point of time there must be at least one admin user for the group. 
 
