@@ -99,7 +99,7 @@ Our system should meet the following requirements:
     - Language: Typescript or JavaScript
     - Framework: (P)React, Angular, Vue
 * Database
-    - MS SQL, PostgreSQL, MongoDB
+    - MS SQL, PostgreSQL, MongoDB, MySQL
     - DB Connectivity : Entiry Core or Daper(Do not use ADO.net)    
 
 ### Python
