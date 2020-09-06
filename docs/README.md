@@ -159,7 +159,7 @@ How do you automate the quality checks of your code and make the reports availab
 ### CI\CD
 
 How have you automated your code to be compiled, tested, verified for quality and deployed. You would have to choose from the following options:
-- Job runner: [TravisCI](https://travis-ci.org/) or [CircleCI](https://circleci.com/) for task runner
+- Job runner: [TravisCI](https://travis-ci.com/) or [CircleCI](https://circleci.com/) for task runner
 - Coverage report: [Codecov](https://codecov.io/) for test running and reporting coverage. Would be great if you can showcase for each commit or pull-request how you can run your coverage checks.
 - Quality report: [Codacy](https://app.codacy.com/) for checking your code quality. Would be great if you can showcase for each commit or pull-request how you can run your quality checks.
 - Kibana\Grafana dashboard for monitoring
