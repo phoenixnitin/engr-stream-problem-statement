@@ -165,6 +165,71 @@ How have you automated your code to be compiled, tested, verified for quality an
 - Kibana\Grafana dashboard for monitoring
 - Cloud server: [Heroku](https://www.heroku.com/) or google cloud or AWS or Azure for cloud. Use trial option. 
 
+## How to submit?
+
+You will have to submit your project through github
+
+1. Go to https://github.com/engineering-stream-hackathon/challenge/issues/new/choose
+
+    ![Get Started For Submission](img/submit-hackathon-project.png)
+    
+2. Click on 
+
+    [![Get started](img/get-started.png)](https://github.com/engineering-stream-hackathon/challenge/issues/new?assignees=engineering-stream-bot&labels=&template=submit-hackathon-project.md&title=%5BFirstName%5D+%5BLastName%5D+)  
+
+3. Fill in the details. Refer [Details of the issue template for submission](#details-of-the-issue-template-for-submission)
+
+4. Submit new issue
+
+    ![Submit new issue](img/submit-new-issue.png)
+    
+### Details of the issue template for submission
+
+A sample template looks like below: 
+
+![Sample Form](img/submission-form.png)
+
+- **Title of the issue:** Ensure you have the first name and last name as per socgen records i.e. [FirstName] [LastName]
+
+#### My project details
+
+The format of this file is in `yml`, hence ensure you have maintained strictly in this format. The issue template suggests some examples. Following is the description: 
+
+
+|**Property**                               | **Description**                                                                                                                                                                                              |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `employee.name`                       | Your name as in SOCGEN                                                                                                                                                                                   |
+| `employee.githubUsername`             | Your GitHub's username                                                                                                                                                                                   |
+| `project.appUrl`                      | The url of the app hosted in cloud                                                                                                                                                                       |
+| `project.documentationUrl`            | The documentation url. You can also point to the README or some hosting gh-pages etc which has the [details as mentioned](#documentation)  |
+| `project.openApiUrl`                  | The open api specification url. You can either host it in public cloud server or point to the json file.                                                                                                 |
+| `project.monitoringUrl`               | The url of the monitoring dashboard                                                                                                                                                                      |
+| `repositories[0].name`                | The name of the repository                                                                                                                                                                               |
+| `repositories[0].githubUrl`           | The GitHub url of the project                                                                                                                                                                            |
+| `repositories[0].[travis\cirlcle]Url` | The travis-ci or cirle-ci url of this repository                                                                                                                                                         |
+| `repositories[0].codacyUrl`           | The codacy url of this repository                                                                                                                                                                        |
+| `repositories[0].coverageUrl`         | The codecov url of this repository                                                                                                                                                                       |            
+
+> :pushpin: NOTE: Since repositories is a list you can submit multiple repositories in case you have different ones for frontend and backend
+
+#### Have you given access to `engineering-stream-bot` ? 
+
+1. Go to **`Settings`** of your repository
+
+    ![Settings](img/settings.png)
+    
+2. Click on **`Invite teams or people`**
+
+    ![Invite teams or people](img/invite-people.png)
+
+3. Search for **`engineering-stream-bot`**
+
+    ![Search for engineering-stream-bot](img/search-engineering-stream-bot.png)       
+
+4. Give **`Admin`** role
+
+    ![Admin role](img/permission.png)  
+
 ## Contacts
 
 Connect with us through [![Gitter](https://badges.gitter.im/engineering-stream-hackathon/community.svg)](https://gitter.im/engineering-stream-hackathon/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)

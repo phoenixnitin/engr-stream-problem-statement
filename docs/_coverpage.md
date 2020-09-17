@@ -8,5 +8,6 @@
 
 [Get Started](#bookmark-and-url-shortening)
 [Contact Us](https://gitter.im/engineering-stream-hackathon/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[How to submit?](#how-to-submit)
 
 ![color](#1F222F)
