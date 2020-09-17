@@ -35,4 +35,6 @@ project:
 
 ## Have you given admin access to [engineering-stream-bot](https://github.com/engineering-stream-bot) ?  
 
-:pushpin: **Note:** [Details about how to submit]()
+- [ ] Yes
+
+> :pushpin: **Note:** [Details about how to submit](https://engineering-stream-hackathon.github.io/challenge/#/?id=how-to-submit)
