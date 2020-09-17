@@ -16,7 +16,8 @@ employee:
 project:
   appUrl: https://devs-from-matrix.github.io/ff4j-web-console/features
   documentationUrl: https://engineering-stream-hackathon.github.io/challenge/
-  swaggerUrl: https://ff4j.herokuapp.com/swagger-ui.html
+  openApiUrl: https://ff4j.herokuapp.com/swagger-ui.html
+  monitoringUrl: https://cloud.com/kibana
   repositories:
     -
       name: ff4j-spring-boot-starter-parent
