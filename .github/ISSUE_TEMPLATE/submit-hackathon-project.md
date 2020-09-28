@@ -26,8 +26,8 @@ project:
       codacyUrl: https://app.codacy.com/gh/ff4j/ff4j-spring-boot-starter-parent/dashboard
       coverageUrl: https://codecov.io/gh/ff4j/ff4j-spring-boot-starter-parent
     - name: rabbitmq-advanced-spring-boot-starter
-      githubUrl: https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter
-      circleUrl: https://circleci.com/github/societe-generale/rabbitmq-advanced-spring-boot-starter
+      githubUrl: https://github.com/organization/rabbitmq-advanced-spring-boot-starter
+      circleUrl: https://circleci.com/github/organization/rabbitmq-advanced-spring-boot-starter
       codacyUrl: https://app.codacy.com/manual/anandmnair/rabbitmq-advanced-spring-boot-starter/dashboard
       coverageUrl: https://codecov.io/gh/ff4j/ff4j-spring-boot-starter-parent
 ```

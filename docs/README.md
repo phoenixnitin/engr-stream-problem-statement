@@ -2,9 +2,9 @@
 
 ## Problem statement
 
-Our organization is going through a digital transformation phase. During this journey, **we have created several digital  components across various platform**(like micro services, widgets, documentations, monitoring dashboards etc). 
+Our organization is going through a digital transformation phase. During this journey, **we have created several digital  components across various platform**(like micro services, widgets, documentations, monitoring dashboards etc).
 
-The easiest way to have the references of all these components is through bookmarks. However, bookmarks has to be imported and exported inorder to share it with any one like a new joiner. In bookmarks, **you cannot detail more about what these bookmarks are about** by providing additional information through short description or an image(s) or customized icons(s). 
+The easiest way to have the references of all these components is through bookmarks. However, bookmarks has to be imported and exported inorder to share it with any one like a new joiner. In bookmarks, **you cannot detail more about what these bookmarks are about** by providing additional information through short description or an image(s) or customized icons(s).
 
 **Bookmarks are not centralized**. Even if you try to centralize it by exporting them and storing in a repository, every time a url is changed or added or removed all the people have to re-import those bookmarks from the centralized repository. It also becomes complex when you already have bookmarks and then importing could result in overlapping.
 
@@ -22,10 +22,10 @@ Our system should meet the following requirements:
 * User should be able to create cards representing the url where each card has a short title, brief description and a customizable picture. Default picture would be the favicon of the serving application. A sample pen sketch is as below:
 
     ![Sample Card](img/card.png)
-    
+
     > :pushpin: NOTE: You are free to design the cards in your own way to enhance the user-experience. **THIS IS JUST A SKETCH TO ILLUSTRATE**.  
 
-* User should be able to group cards in terms of tribes, feature teams, platforms or application. **This would be like a catalog**. User should be able to share the group urls. 
+* User should be able to group cards in terms of tribes, feature teams, platforms or application. **This would be like a catalog**. User should be able to share the group urls.
 
     ![Group Card](img/group-cards.png)
 
@@ -42,7 +42,7 @@ Our system should meet the following requirements:
     | Tribe                 | http://your-domain/{tribe-name}/klsjd73     |
     | platform\application  | http://your-domain/{ft-name}/klsjd73        |
 
-* The creator of the group will be the admin(role) user after which s\he will be able to add one or more admin user who would have authority to make changes. Only admin user(s) can remove a user from admin role. At any point of time there must be at least one admin user for the group. 
+* The creator of the group will be the admin(role) user after which s\he will be able to add one or more admin user who would have authority to make changes. Only admin user(s) can remove a user from admin role. At any point of time there must be at least one admin user for the group.
 
 * Admin user(s) of the group should be able to authorize a card to be displayed on the group, make changes like updating or deleting card(s). Unless the admin user approves the card or its changes, it will not be displayed on the group page.
 
@@ -50,9 +50,9 @@ Our system should meet the following requirements:
 
 * User should be able to share the group page enlisting all the cards of that group
 
-* Admin user(s) should be able to import or export 
+* Admin user(s) should be able to import or export
 
-      
+
 ### Non-functional requirements
 
 * The system should be highly available. This is required because, if our service is down, all the URL redirections will start failing.
@@ -83,7 +83,7 @@ Our system should meet the following requirements:
 
 * Backend
     - Language: Java or kotlin (AdoptOpenJDK 11 and above)
-    - Framework: Spring, spring-boot, spring-cloud 
+    - Framework: Spring, spring-boot, spring-cloud
 * Frontend
     - Language: Typescript or JavaScript
     - Framework: (P)React, Angular, Vue
@@ -154,7 +154,7 @@ A good developer always makes incremental commits with [meaningful commit messag
 
 ### Quality
 
-How do you automate the quality checks of your code and make the reports available in terms of violations and code coverage. Failing fast is one of the key aspect that helps in delivering a software in agile. How do you help in failing fast and help deliver quality code. 
+How do you automate the quality checks of your code and make the reports available in terms of violations and code coverage. Failing fast is one of the key aspect that helps in delivering a software in agile. How do you help in failing fast and help deliver quality code.
 
 ### CI\CD
 
@@ -163,7 +163,7 @@ How have you automated your code to be compiled, tested, verified for quality an
 - Coverage report: [Codecov](https://codecov.io/) for test running and reporting coverage. Would be great if you can showcase for each commit or pull-request how you can run your coverage checks.
 - Quality report: [Codacy](https://app.codacy.com/) for checking your code quality. Would be great if you can showcase for each commit or pull-request how you can run your quality checks.
 - Kibana\Grafana dashboard for monitoring
-- Cloud server: [Heroku](https://www.heroku.com/) or google cloud or AWS or Azure for cloud. Use trial option. 
+- Cloud server: [Heroku](https://www.heroku.com/) or google cloud or AWS or Azure for cloud. Use trial option.
 
 ## How to submit?
 
@@ -172,8 +172,8 @@ You will have to submit your project through github
 1. Go to https://github.com/engineering-stream-hackathon/challenge/issues/new/choose
 
     ![Get Started For Submission](img/submit-hackathon-project.png)
-    
-2. Click on 
+
+2. Click on
 
     [![Get started](img/get-started.png)](https://github.com/engineering-stream-hackathon/challenge/issues/new?assignees=engineering-stream-bot&labels=&template=submit-hackathon-project.md&title=%5BFirstName%5D+%5BLastName%5D+)  
 
@@ -182,23 +182,23 @@ You will have to submit your project through github
 4. Submit new issue
 
     ![Submit new issue](img/submit-new-issue.png)
-    
+
 ### Details of the issue template for submission
 
-A sample template looks like below: 
+A sample template looks like below:
 
 ![Sample Form](img/submission-form.png)
 
-- **Title of the issue:** Ensure you have the first name and last name as per socgen records i.e. [FirstName] [LastName]
+- **Title of the issue:** Ensure you have the first name and last name as per organization records i.e. [FirstName] [LastName]
 
 #### My project details
 
-The format of this file is in `yml`, hence ensure you have maintained strictly in this format. The issue template suggests some examples. Following is the description: 
+The format of this file is in `yml`, hence ensure you have maintained strictly in this format. The issue template suggests some examples. Following is the description:
 
 
 |**Property**                               | **Description**                                                                                                                                                                                              |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `employee.name`                       | Your name as in SOCGEN                                                                                                                                                                                   |
+| `employee.name`                       | Your name as in ORGANIZATION                                                                                                                                                                                   |
 | `employee.githubUsername`             | Your GitHub's username                                                                                                                                                                                   |
 | `project.appUrl`                      | The url of the app hosted in cloud                                                                                                                                                                       |
 | `project.documentationUrl`            | The documentation url. You can also point to the README or some hosting gh-pages etc which has the [details as mentioned](#documentation)  |
@@ -212,12 +212,12 @@ The format of this file is in `yml`, hence ensure you have maintained strictly i
 
 > :pushpin: NOTE: Since repositories is a list you can submit multiple repositories in case you have different ones for frontend and backend
 
-#### Have you given access to `engineering-stream-bot` ? 
+#### Have you given access to `engineering-stream-bot` ?
 
 1. Go to **`Settings`** of your repository
 
     ![Settings](img/settings.png)
-    
+
 2. Click on **`Invite teams or people`**
 
     ![Invite teams or people](img/invite-people.png)
